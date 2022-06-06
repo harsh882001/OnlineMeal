@@ -1,0 +1,222 @@
+<style>
+    /*variable */
+    :root {
+        --navbar-height: 60px;
+    }
+
+    #navbar {
+        
+        height: 32px;
+        display: flex;
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        align-items: center;
+        top: 0%;
+        /* position: relative; */
+
+    }
+
+    /* navbar: logo and image */
+    #logo {
+        margin: 10px 20px;
+    }
+
+    #logo img {
+        margin: -12.1px -2.7px;
+        height: 60px;
+        border-radius: 2px;
+    }
+
+    /* navbar:list styling */
+    #navbar ul {
+        display: flex;
+        list-style: none;
+        font-size: 1.2rem;
+        padding-left: 0px;
+    }
+
+
+    #navbar::before {
+        content: "";
+        background-color: black;
+        position: absolute;
+        height: 7%;
+        width: 100%;
+        z-index: -2;
+        opacity: 0.5;
+
+    }
+
+    #navbar ul a {
+        color: aliceblue;
+        display: block;
+        padding: 0px 22px;
+        border-radius: 4px;
+        text-decoration: none;
+
+    }
+
+    #navbar ul li a:hover {
+        color: black;
+        background-color: aliceblue;
+
+    }
+
+    /* Home Section */
+    #home {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 150px;
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #home::before {
+        content: "";
+        background: url('home.img.jpg') no-repeat center center/cover;
+        position: absolute;
+        height: 75%;
+        width: 100%;
+        z-index: -2;
+        opacity: 0.5;
+        /* top: 0%; */
+        left: 0%;
+    }
+
+    #home p {
+        text-align: center;
+        font-size: medium;
+        font-family: 'Roboto Condensed', cursive;
+    }
+
+    /* Services Section */
+    #Services {
+        margin: 30px;
+        display: flex;
+        flex-direction: row;
+        font-family: 'Baloo Bhaijaan 2', cursive;
+
+    }
+
+    #Services .box {
+
+        border: 2px solid black;
+        width: 360px;
+        height: 270px;
+        margin: 6px;
+        padding: 17px;
+        border-radius: 14px;
+        background-color: #e6e6e6;
+    }
+
+    .image {
+        height: 100px;
+        width: 100px;
+        display: block;
+        margin: auto;
+
+    }
+
+    #services {}
+
+    #services {}
+
+    /* Client Section */
+    #client-section {
+        height: 300px;
+    }
+
+    #client-section::before {
+        content: "";
+        position: absolute;
+        background: url(back.jpg) no-repeat center center/cover;
+        width: 100%;
+        height: 60%;
+        z-index: -1;
+        opacity: 0.4;
+    }
+
+    #clients {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #clients img {
+        height: 90px;
+    }
+
+    .client-item {
+        padding: 2px;
+    }
+
+    /* contact section  */
+
+#contact{
+    position: relative;
+    height: 400px;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+    background: url(contact.jpg) no-repeat center center/cover;
+}
+#Contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Contact-box input,
+#Contact-box textarea{
+    width: 90%;
+    padding: 0.5rem;
+    border: 2px solid #ddd6d6;
+    border-radius: 10px;
+    font-size: 0.7rem;
+}
+#message{
+height: 90px;
+
+}
+
+    /* utility classes */
+    .h-primary {
+        font-size: 3rem;
+        color: #784c08bf;
+
+    }
+
+    .h-secondary center {
+        font-size: 2rem;
+        padding: 10px;
+
+    }
+
+    .btn {
+        padding: 4px 15px;
+        border: 3px solid #9f9a91;
+        border-radius: 5px;
+        background-color: #ebe5dd;
+        margin: 0px;
+        cursor: pointer;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .box p {
+        text-align: center;
+    }
+    footer{
+        background-color: #fda5a5;
+    color: #0a0a0a;
+    padding: 3px 20px;
+    font-size: large;
+    }
+    
+</style>
