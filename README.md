@@ -8,4 +8,4 @@
     It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.
   <br />
     <strong>Site URL / Demo » </strong>
-    <a href="https://mobilelatest.000webhostapp.com/harshp/index.html</a>
+    <a href="https://mobilelatest.000webhostapp.com/harshp/index.html">OnlineMeal</a>
